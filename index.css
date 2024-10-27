@@ -1,0 +1,158 @@
+body {
+    background: url() fixed 0% 0% / cover !important;
+}/*背景图*/
+body.dark-mode {
+    background: url() fixed 0% 0% / cover !important;
+}/*夜间背景图*/
+.dark-mode .growl-notification--default .growl-notification__title {
+    color: #000
+}/*夜间弹窗字体颜色*/
+.dark-mode .growl-notification--default, .growl-notification--default {
+    background: #fff6;
+}/*夜间弹窗背景颜色*/
+.growl-notification--default:before {
+    background: #fff6
+}/*夜间弹窗字体竖线颜色*/
+.header-tabbar-left img, .header .header-author-avatar img {
+    border-radius: 50%;
+}/*导航栏头像,博主头像*/
+.modal_head, .login-submit {
+    background: #fff;
+    color: #000;
+}/*搜索栏,按钮,手机端字体颜色*/
+.dark-mode .main, .main {
+    box-shadow: none;
+    background: #0000;
+}/*卡片阴影,头图透明背景*/
+.header-element {
+    border-radius: 0;
+    box-shadow: 0 -2rem 50px -3rem rgb(255 255 255 / 40%);
+    background: #fff6;
+}/*卡片边角,顶部阴影,透明背景*/
+.dark-mode .header-element {
+    background: #0006;
+}/*夜间卡片透明背景*/
+section {
+    background-color: #fff6;
+}/*卡片颜色*/
+.post-list, .main_element, .news-item  {
+    background: #0000;
+}/*卡片颜色*/
+.dark-mode .newsComments-placeholder, .dark-mode .post-list, .dark-mode .page_next a, .dark-mode #GoTop a, .dark-mode .Total, .dark-mode .Comments-postbox .placeholder, .dark-mode .page-navigator a, .dark-mode .Comments-item-body, .dark-mode .Comments-postbox .editor textarea, .dark-mode .Comments-postbox .editor .pen, .dark-mode .Comments-postbox .editor .pencilbox .stationery span:hover, .dark-mode .Comments-postbox .editor .pencilbox .submit:hover, .dark-mode .Comments-profile div, .dark-mode input, .dark-mode .links-list-item a, .dark-mode #Cross-mian .Cross-warpper, .dark-mode .newsComments-boxs, .dark-mode .news-item, .dark-mode section, .dark-mode .footer, .dark-mode #GoTop a:hover, .dark-mode .modal_head, .dark-mode .login-submit, .dark-mode #Cross-mian .comment-respond.show .Comments-postbox .placeholder, .dark-mode #Cross-mian .comment-respond.show .Comments-postbox .editor textarea, .dark-mode #Cross-mian .comment-respond.show .Comments-postbox .editor .pen {
+    background: #0000;
+}/*夜间卡片颜色*/
+.dark-mode .main_element {
+    background: rgb(0 0 0 / 40%);
+}/*夜间卡片颜色*/
+.Total, .Total i, .dark-mode .Total i {
+    background-color: #0000;
+}/*评论图标透明背景*/
+.dark-mode .Comments-postbox .avatar,.dark-mode .Comments-item-avatar img,.dark-mode .FriendWall_img {
+    border: 5px solid #0006;
+}/*夜间评论头像边框颜色*/
+.Comments-postbox .placeholder:hover {
+    background: #0000 !important;
+}/*评论框交互效果*/
+.Comments-postbox .placeholder {
+    background: #fff6;
+}/*评论框背景颜色*/
+.Comments-postbox .editor .pen, .Comments-postbox .editor textarea, .Comments-postbox .editor .pencilbox {
+    background: #0000;
+}/*评论内容框透明背景*/
+.Comments-postbox .editor .pencilbox .stationery span:hover,.Comments-postbox .editor .pencilbox .submit:hover {
+    background-color: #0000;
+}/*评论框图标交互效果*/
+#secret-button:checked+label.secret-label {
+    background-color:#0000;
+}/*评论框悄悄话🔒背景颜色*/
+.OwO .OwO-body {
+	background: #fff6;
+    border: 1px solid #ddd;
+}/*评论框图标展示栏背景边框颜色*/
+.OwO .OwO-body .OwO-items .OwO-item {
+	background: #fff6;
+}/*评论框图标展示栏展示框透明背景*/
+.OwO .OwO-body .OwO-items .OwO-item:hover {
+	background: #fff9;
+}/*评论框图标展示栏展示框交互效果*/
+.dark-mode .OwO .OwO-body {
+    background: #0006;
+}/*夜间评论框图标展示栏背景颜色*/
+.dark-mode .OwO .OwO-body .OwO-items .OwO-item {
+    background: #0006;
+}/*夜间评论框图标展示栏展示框透明背景*/
+.dark-mode .OwO .OwO-body .OwO-items .OwO-item:hover {
+    background: #0009
+}/*夜间评论框图标展示栏展示框交互效果*/
+.OwO .OwO-body .OwO-bar, .dark-mode .OwO .OwO-body .OwO-bar {
+    background: #0000;
+}/*评论框图标展示栏菜单背景颜色*/
+.OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
+	background: #0000;
+}/*评论框点击图标悬停背景颜色*/
+.dark-mode .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active {
+    background:#0000;
+}/*夜间评论框点击图标悬停背景颜色*/
+.OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+	background-color: #fff6;
+}/*评论框图标展示栏交互效果*/
+.OwO .OwO-body .OwO-bar .OwO-packages li span:hover {
+	background-color: #0000;
+}/*评论框图标展示栏交互效果屏蔽*/
+.dark-mode .OwO .OwO-body .OwO-bar .OwO-packages li:hover {
+    background: #0006;
+}/*夜间评论框图标展示栏交互效果*/
+.Comments-postbox .editor .pencilbox .submit {
+    background-color: #0000;
+}/*评论发布按钮颜色*/
+input[type=text],input[type=password],input[type=email],input[type=url],input[type=date],input[type=month],input[type=time],input[type=datetime],input[type=datetime-local],input[type=week],input[type=number],input[type=search],input[type=tel],select {
+    background: #0000;
+}/*昵称,邮箱,网站填写框背景颜色*/
+.Comments-profile div {
+    background-color: #fff6;
+}/*昵称,邮箱,网站填写框背景颜色*/
+.Comments-item-body {
+    background-color: #fff6;
+}/*气泡框透明背景*/
+.growl-notification--info {
+    background: #fff6;
+}/*评论提交弹窗背景颜色*/
+.growl-notification--info:before {
+    background: #fff6;
+}/*评论提交弹窗竖线颜色*/
+.growl-notification--success {
+    background: #fff6;
+}/*评论成功弹窗竖线背景颜色*/
+.growl-notification--success:before {
+    background: #fff6;
+}/*评论成功弹窗竖线颜色*/
+.growl-notification--warning {
+    background: #fff6;
+}/*评论频繁弹窗背景颜色*/
+.growl-notification--warning:before {
+    background: #fff6;
+}/*评论频繁竖线颜色*/
+.growl-notification--warning .growl-notification__desc,.growl-notification--warning .growl-notification__title {
+    color: #fff;
+}/*评论频繁字体颜色*/
+.footer {
+    background-color: #fff6;
+}/*页脚卡片颜色*/
+.dark-mode .footer {
+    background-color: #0006 !important;
+}/*夜间页脚卡片颜色*/
+#GoTop a {
+    width: 55px;
+    height: 55px;
+    border-radius: 55%;
+    background: #0000;
+}/*上滑顶部圈圈透明背景*/
+#GoTop a:hover {
+    background: #0000;
+}/*上滑顶部圈圈交互透明背景*/
+#Cross-mian .Cross-warpper {
+    background: #fff3;
+}/*说说独立页面透明背景*/
+#Cross-mian .comment-respond.show .Comments-postbox .placeholder,#Cross-mian .comment-respond.show .Comments-postbox .editor textarea,#Cross-mian .comment-respond.show .Comments-postbox .editor .pen {
+    background: #fff3;
+}/*说说内容框透明背景*/
